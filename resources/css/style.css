@@ -1,0 +1,298 @@
+/* Universal Styles */
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  text-align: center;
+}
+
+/* Navbar */
+
+.navbar-brand {
+	margin-left: 40px;
+}
+
+.navbar-nav {
+	margin-right: 40px;
+}
+
+.navbar-custom {
+  color: white;
+  background-color: cadetblue;
+}
+
+.navbar-custom a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-custom img {
+	max-width: 40px;
+	height: auto;
+}
+
+/* Header */
+
+.fa-chevron-circle-down {
+	color: white;
+}
+
+.top {
+	height: 700px;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  float: right;
+  height: 650px;
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+	margin-right: 50px;
+    padding: 50px 5%;
+}
+
+.intro {
+    background: rgba(245, 245, 245, 0.83);
+    padding: 15px;
+    margin: -15px;
+}
+
+
+.main-banner {
+  background-color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+/* Supporting Sections */
+
+.services {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	align-content: center;
+}
+
+.services .row {
+	align-content: center;	
+}
+
+.services .fas {
+	margin-bottom: 20px;
+}
+
+.services .fas:hover {
+  transition: color 0.25s ease;
+  color: cadetblue;
+}
+
+.information .display-4 {
+	margin-bottom: 50px;
+}
+
+.information {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	align-content: center;
+}
+
+.information .row {
+	align-content: center;	
+}
+
+.information .fas {
+	margin-bottom: 20px;
+}
+
+.information .fas:hover {
+  transition: color 0.25s ease;
+  color: cadetblue;
+}
+
+.information .display-4 {
+	margin-bottom: 50px;
+}
+
+
+/* Info Section */
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  padding: 0.5rem 1.25rem;
+  font-size: 18px;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* Footer */
+
+.footer {
+  color: white;
+  background-color: cadetblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer img {
+	max-width: 40px;
+	height: auto;
+}
+
+.footer .fab {
+	color: white;
+}
+
+.footer .fas {
+	color: white;
+}
+
+.footer .fab:hover {
+  transition: color 0.25s ease;
+  color: lightgray;
+}
+
+.footer .fas:hover {
+  transition: color 0.25s ease;
+  color: lightgray;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+.navbar-brand {
+	margin-left: 20px;
+}
+.top {
+	height: 350px;
+    background-image: url("../images/backgroundmobile.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+  font-size: 14px;
+}
+	
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.navbar-brand {
+	margin-left: 20px;
+}
+	.top {
+	height: 700px;
+    background-image: url("../images/background_resize.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	
+.top .display-4 {
+font-size: 24px;
+	}
+.title {
+  font-size: 14px;
+}
+
+.services {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}	
+.information {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.navbar-brand {
+	margin-left: 20px;
+}
+	
+.top {
+	height: 700px;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+  font-size: 14px;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.navbar-brand {
+	margin-left: 20px;
+}
+	
+.top {
+	height: 700px;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+ font-size: 14px;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.top {
+	height: 700px;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.top {
+	height: 700px;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
