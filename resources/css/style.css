@@ -239,13 +239,9 @@ font-size: 24px;
 	margin-left: 20px;
 }
 	
-.top {
-	height: 700px;
-    background-image: url("../images/background_resize.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.top img {
+    height: 700px;
+    width: 812px;
 }
 .title {
   font-size: 14px;
@@ -258,14 +254,11 @@ font-size: 24px;
 	margin-left: 20px;
 }
 	
-.top {
-	height: 700px;
-    background-image: url("../images/background.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.top img {
+    height: 700px;
+    width: 812px;
 }
+	
 .title {
  font-size: 14px;
 }
